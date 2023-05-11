@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <title>Fatos Rick and Morty</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Rick and Morty buscador </h1>
+        </div>
+    </header>
+    <main>
+        <section id="sobre">
+            <div class="caixa_sobre">
+                <h2>Sobre a página</h2>
+                <p>Essa página foi feita com o objetivo de estudar os métodos de array utilizando tratamento dos dados e consumo de API. 
+                    Utilizei nesta página a seguinte API, url="https://rickandmortyapi.com/api".</p>
+            </div>
+            <div class="caixa_sobre">
+                <h2>Utilização</h2>
+                <p>Na barra de busca abaixo você deverá escrever qual personagem deseja ver as informações do universo Rick and Morty e clicar fora da barra. 
+                    Exemplos de busca: Rick Sanchez, Morty Smith, Albert Einstein, Alien Rick...
+
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="pesquisa">
+                <label for="pesquisa" class="busca">Busque</label>
+                <input type="search" id="pesquisa" placeholder="Digite aqui" value="">
+            </div>
+        </section>
+        <section id="resultado">
+        </section>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

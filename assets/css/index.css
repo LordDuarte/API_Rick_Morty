@@ -1,0 +1,120 @@
+.rick{
+   display: none;
+}
+
+main{
+    background-image: url(../picture/imagem.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#sobre{
+    margin: 0em auto 0em auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa_sobre{
+    background-color: var(--header);
+    box-shadow: 0px 0px 10px var(--verde);
+    border-radius: 20px;
+    width: 70%;
+    padding: 1em;
+    line-height: 2em;
+    margin-top: 5em;
+    
+}
+
+.caixa_sobre>h2{
+    color:white;
+    font-size: var(--fonte-mh);
+    font-family: Pathway Extreme;
+}
+
+.caixa_sobre>p{
+    color:white;
+    font-size: var(--fonte-mp);
+    font-family: Pathway Extreme;
+    line-height: 2em;
+}
+
+
+.pesquisa{
+    margin-top: 10em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.busca{
+    padding: 1em;
+    font-size: var(--fonte-busca);
+    font-family: Pathway Extreme;
+    font-weight: 500;
+    color: var(--azul);
+}
+
+#pesquisa{
+    margin-top: 1em;
+    width: 50%;
+    padding: 15px;
+    border: 2px solid var(--azul-escuro);
+    margin-bottom: 5em;
+}
+
+#pesquisa::placeholder{
+    font-size: var(--fonte-mp);
+    font-weight: 400;
+    font-family: Pathway Extreme;
+}
+
+/*Busca*/
+#resultado{
+    font-family: Pathway Extreme;
+    z-index: 1;
+    padding-block: 5em;
+}
+
+.caixa_resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:0em auto 0em auto;
+    background-color: var(--header);
+    border: 2px solid var(--verde);
+    box-shadow: 10px 10px 10px var(--verde);
+    border-radius: 20px;
+    width: 300px;
+    
+}
+
+#image{
+    margin: 1em;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#infos{
+    text-align: initial;
+}
+
+#infos>p{
+    margin: 5px;
+    font-size: 19px;
+    font-weight: 300;
+    color: var(--verde);
+}
+
+#nome{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    color: var(--verde)
+}

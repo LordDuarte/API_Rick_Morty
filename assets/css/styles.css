@@ -1,0 +1,32 @@
+@import url('../css/header.css');
+@import url('../css/index.css');
+
+
+:root{
+      /*fontes-mobile*/
+      --fonte-mh:18px;
+      --fonte-mp:16px;
+      --fonte-busca:25px;
+      --fonte-header:30px;
+
+    /*cores*/
+    --azul:#30a854;
+    --azul-escuro:#0168a3;
+    --verde:#19eb93;
+    --header:#19183a;
+}
+
+@font-face {
+    font-family: sch;
+    src: url(../fonts/get_schwifty.ttf);
+}
+
+@font-face {
+    font-family: soop;
+    src: url(../fonts/soopafre.ttf);
+}
+
+@font-face {
+    font-family: pacifico;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}

@@ -1,0 +1,17 @@
+header{
+    background-color:var(--azul);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: pacifico;
+    padding-block: 20px;
+    position: relative;
+}
+
+.titulo>h1{
+    font-size: var(--fonte-header);
+    color: var(--header);
+}
