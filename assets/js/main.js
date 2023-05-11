@@ -9,6 +9,12 @@ busca.addEventListener("focusout",(evt) => {
     }
 )
 
+busca.addEventListener("search",(evt) => {
+    acessaAPI(valor = busca.value)
+    id.style.display= 'block'
+    }
+)
+
 async function acessaAPI(busca){
     const charactersAPI = 'https://rickandmortyapi.com/api/character/'
     const resp1 = await fetch(charactersAPI)
