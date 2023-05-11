@@ -2,6 +2,7 @@ let apiResp1 = []
 let resultBusca = []
 const busca = document.getElementById("pesquisa")
 const id = document.getElementById('resultado')
+const aviso = document.querySelector(".aviso")
 
 busca.addEventListener("focusout",(evt) => {
     acessaAPI(valor = busca.value)
@@ -31,9 +32,11 @@ async function acessaAPI(busca){
         limpa()
         console.log(resultado)
         console.log("Limpado")
+        aviso.classList.add("aviso-on")
     }
 
     else if (resultado.length>0){
+        aviso.classList.remove("aviso-on")
     resultado.map((el) => {
         const {image, name, status, species, type, gender} = el
         console.log(resultado)
