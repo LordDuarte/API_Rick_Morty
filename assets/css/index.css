@@ -73,6 +73,19 @@ main{
     font-family: Pathway Extreme;
 }
 
+.aviso{
+    display: none;
+    color: white;
+    font-family: Pathway Extreme;
+    font-size: var(--fonte-mp);
+    text-align: center;
+    padding-block: 1em;
+}
+
+.aviso-on{
+    display: block;
+}
+
 /*Busca*/
 #resultado{
     font-family: Pathway Extreme;
